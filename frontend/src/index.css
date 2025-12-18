@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #E62F30;
+  --color-primary-dark: #dd4747;
+
+  --color-secondary: #0583d8;
+  --color-secondary-dark: #0575c1;
+
+  --color-cream: #fff8eb;
+  --color-dark: #000000;
+  --color-light: #ffffff;
+
+  --color-light-grey: #d3d3d3;
+  --color-dark-grey: #777777;
+  --color-half-white: #f8f8f8;
+  --color-trans-red: #fff0f0;
+
+  --color-attendance-wfo: #45c998;
+  --color-attendance-wfh: #0583d8;
+  --color-attendance-leave: #E62F30;
+
+  /* Semantic Colors for Status/Alerts */
+  --color-success: #10b981;
+  /* green-500 */
+  --color-success-light: #d1fae5;
+  /* green-100 */
+
+  --color-warning: #f59e0b;
+  /* amber-500 */
+  --color-warning-light: #fef3c7;
+  /* amber-100 */
+
+  --color-error: #ef4444;
+  /* red-500 */
+  --color-error-light: #fee2e2;
+  /* red-100 */
+
+  --color-info: #3b82f6;
+  /* blue-500 */
+  --color-info-light: #dbeafe;
+  /* blue-100 */
+}
+
+/* Custom Base Styles */
+body {
+  @apply bg-half-white text-dark font-sans;
+}
